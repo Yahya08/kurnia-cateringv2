@@ -16,7 +16,7 @@ function App() {
         <Route path='/reserfasi' element={<Reserfasi/>} />
         <Route path='/menu' element={<Page3/>} />
         <Route path='/tentang' element={<Tentang/>} />
-        {/* <Route path='/reserfasi' element={<Reserfasi/>} /> */}
+        <Route path='/reserfasi' element={<Reserfasi/>} />
 
       </Routes>
     </Router>

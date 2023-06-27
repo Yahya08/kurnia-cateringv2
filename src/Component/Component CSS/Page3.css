@@ -1,1 +1,93 @@
+.lay-menu{
+    margin-top: 10vh;
+}
+.menu-page3{
+    height: auto;
+}
+.judul-pg3{
+    /* background-color: rgb(210, 60, 60); */
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+.stylee-pg3{
+    display: flex;
+}
+.style-page3{
+    /* margin-top: 2rem; */
+    display: block;
+    /* border-radius: 30px; */
+    gap: 4px;
+    /* margin-left: 8rem; */
+    height:56vh;
+    background-color: #ffffff;
+    /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.133); */
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.card-page3{
+    width: 41vh;
+    margin-left: 5.5rem;
+    box-shadow: 2px 4px 5px 5px #000000be;
+
+    
+    margin-top: 2vh;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+}
+.card-page3:hover .img-page3{
+    height: 45vh;
+    transition: 1s;
+}
+.card-page3:hover .card-text3{
+    top: 0;
+}
+.img-page3{
+    height: 40vh;
+    width: 41vh;
+    object-fit: cover;
+    transition: 1s;
+    border: 1px solid #161616;
+}
+.card-text3{
+    width: 41vh;
+    height: 40vh;
+    top: -40vh;
+    right:0;
+    position: absolute;
+    background-color: #36363a9c;
+    backdrop-filter: blur(1px);
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    transition: 1s;   
+}
+.menu-judul-pg3{
+    margin: 1rem;
+    text-transform: uppercase;
+}
+.deskripsi-judul-pg3{
+    margin: 1rem;
+    text-transform: capitalize;
+    
+}
+.page3-judull{
+    margin-left: 11.5rem;
+    /* gap: 1rem; */
+    line-height: 4rem;
+
+}
+
+/* /text */
+.judulpg3-1{
+    line-height: 4rem;
+    
+}
 
