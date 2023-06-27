@@ -8,7 +8,7 @@ function Home2() {
         <div className="subhome2">
           <div className="home2-txt">
             <h2>Kurnia Catering <span>Nih bos</span></h2>
-            <p>Dengan melayani askaakhkahsdshdjkhsdxcx
+            <p>Dengan  hsesfyudhhhvbhjughb melayani askaakhkahsdshdjkhsdxcx
                 jhg
             </p>
              
