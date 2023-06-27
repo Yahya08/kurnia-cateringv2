@@ -83,3 +83,82 @@
 .home .home-txt h2 span{
   font-size: 5.5rem;
 }
+
+.home .home-txt p{
+  color: antiquewhite;
+  margin-left: 4rem;
+  line-height: 4rem;
+}
+
+.home .home-txt a{
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 4rem;
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #3b3a38;
+  transition: 0.3s;
+}
+
+.home-txt a:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+/* Font */
+.font-ul{
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 90px;
+  line-height: 10px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.font-ul li{
+  margin-left: 3rem;
+  list-style: none;
+  font-size: 70px;
+  font-weight: 600;
+  color: #F17228;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+
+.font-ul li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+.font-ul li span::after{
+  content:'';
+  position: absolute;
+  left: 0;
+  height: 90px;
+  width: 100%;
+  background-color:#ffb20e;
+  border-left: 1px solid #ffb20e;;
+  animation: typing 3s steps(14) infinite;
+
+}
+@keyframes typing{
+  40%,
+  60%{
+      left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
