@@ -1,0 +1,338 @@
+.bodyzeen{
+    height:187vh;
+    width: 100%;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+
+    
+}
+.judul-pg{
+    
+    color: #212121;
+    
+    background-color: #fff;
+
+    
+
+}
+.judulpd-h1{
+    padding: 2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 1rem;
+}
+
+.card-makanan{
+    width: 34vh;
+    margin-left: 5.5rem;
+    
+    margin-top: 9vh;
+    height: 40vh;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+}
+.card-makanan:hover .card-img{
+    /* width: 35vh; */
+    height: 45vh;
+    /* background-color: #1a1a1a; */
+    transition: 1s;
+
+}
+.style{
+    display: block;
+    border-radius: 30px;
+    gap: 1rem;
+    margin-left: 8rem;
+    height: 72vh;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.133);
+    
+    
+    width: 80%;
+    overflow: hidden;
+    
+}
+.swipe{
+    display: flex;
+}
+.card-makanan:hover .card-text{
+    right: 0;
+}
+.card-img{
+    height: 40vh;
+    width: 34vh;
+    object-fit: cover;
+}
+.card-text{
+    width: 34vh;
+    height: 40vh;
+    top: 0;
+    right:-34vh;
+    position: absolute;
+    background-color: #36363a9c;
+    backdrop-filter: blur(1px);
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+
+    
+}
+
+
+.menu-judul{
+    margin: 1rem;
+    text-transform: uppercase;
+}
+.deskripsi-judul{
+    margin: 1rem;
+    text-transform: capitalize;
+    
+}
+/* Swipe */
+
+.swipe-pos{
+    margin-top: 5rem;
+    margin-left: 38%;
+}
+.btn-swp{
+    position: relative;
+    width: 200px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #F17228;
+    color: #212121;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-top: 0.5px solid #fff;
+    border-left: 2px solid #fff;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+
+
+}
+.btn-swp:hover{
+    padding-left: 0px;
+    padding-right: 40px;
+    color: #212121;
+}
+
+.btn-swp::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background-color: blueviolet;
+    transition: 0.6s ease-in-out;
+    transform: translateX(-200px) skewX(30deg);
+}
+.btn-swp:hover::after{
+    transform: translateX(200px) skewX(30deg);
+
+}
+
+
+
+.page5slide{
+    height: 0vh;
+    background-color: #30333c;
+    margin-top: 1rem;
+
+}
+
+.sideside{
+    display: flex;
+}
+.card-anim{
+   
+    height: 60vh;
+    width: 74%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    transition: 0.6s;
+}
+.cardanimimg{
+    margin-top: -4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardanimimg::before{
+    content: "";
+    transition: 0.4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(253, 255, 255);
+    clip-path: circle(100px at center);
+    
+}
+.cardanimimg:hover:before{
+    clip-path: circle(600px at center);
+    background-color: #ffb20e;
+    border-radius: 20px;
+}
+.card-animdes{
+    padding: 1.5rem;
+}
+.card-p{
+    margin-top: 6rem;
+    font-size: 6rem;
+    color: #FFB30E;
+    
+}
+.spanp{
+    color: #F17228;
+}
+.promo-img{
+    height: 40vh;
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: 0.3s;
+    margin-top: -4rem;
+}
+.card-anim:hover .promo-img{
+    left: 70%;
+    transition: 0.4s;
+}
+.judul-anim{
+    color: #ffffff;
+    margin-top: -8rem;
+    /* overflow: hidden; */
+}
+.deskripsipromo{
+    position:relative;
+    margin-left: 2rem;
+  
+    transition: 0.9s;
+    left: 20%;
+    opacity: 0;
+    /* background-color: */
+    visibility: hidden;
+   
+}
+
+.text-anim{
+    color: #ffffff;
+
+}
+.card-anim:hover .deskripsipromo{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+/* Kanan */
+.page5kanan{
+  
+    height: 60vh;
+   
+    
+}
+.promokanan{
+    height: 20vh;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    /* margin-left: 4rem; */
+}
+.kananfoto1{
+    margin-left: 1rem;
+    height: 23vh;
+    width: 40vh;
+    margin-top: 2rem;
+    border-radius: 15px;
+    background-color: #ffb20e;
+    background-size: cover;
+    background-position: center;
+    /* box-shadow: 4px 3px 4px 6px #000; */
+    /* border: 1px solid #000; */
+    overflow: hidden;
+    position:relative ;
+}
+.desdeta{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    
+    height: 100%;
+    bottom: -450px;
+    border-radius: 8px;
+    background-color: rgb(42, 62, 62);
+    
+    /* box-shadow: 2px 2px 0px #641515; */
+    transition: 1s;
+}
+.kanandeskripsi{
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+
+    width: 100%;
+    height: 28%;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out ;
+    background: transparent;
+}
+.h1-detail{
+    font-size: 20px;
+    margin-left: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.h1-detail1{
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 6px;
+    font-weight: bold;
+    color: #fefefe;
+}
+.kananfoto1:hover .kanandeskripsi{
+    bottom: -75px;
+}
+.kananfoto1:hover .desdeta{
+    bottom: 0;
+
+
+}
+.hub-btn{
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 10px;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}

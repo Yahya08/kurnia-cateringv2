@@ -1,0 +1,238 @@
+.bodyzeen {
+  height: 140vh;
+  width: 100%;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102, 121, 136);
+}
+.judul-pg {
+  height: 15vh;
+  background-color: aqua;
+}
+
+.card-makanan {
+  width: 34vh;
+  margin-top: 12vh;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: aqua;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #fefefe;
+  box-shadow: 0px 2px 2px 6px #272525;
+  position: relative;
+  transition: 1s;
+}
+.card-makanan:hover .card-img {
+  /* width: 35vh; */
+  height: 45vh;
+  background-color: #272525;
+  transition: 1s;
+}
+.style {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1.7rem;
+}
+.card-makanan:hover .card-text {
+  right: 0;
+}
+.card-img {
+  height: 40vh;
+  width: 34vh;
+  object-fit: cover;
+}
+.card-text {
+  width: 34vh;
+  height: 40vh;
+  top: 0;
+  right: -34vh;
+  position: absolute;
+  background-color: #36363a9c;
+  backdrop-filter: blur(1px);
+  color: aliceblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+}
+
+.menu-judul {
+  margin: 1rem;
+  text-transform: uppercase;
+}
+.deskripsi-judul {
+  margin: 1rem;
+  text-transform: capitalize;
+}
+/* Bawah slide */
+.page5slide {
+  height: 80vh;
+  background: url("../../assets/Img/Makanan.jpg");
+  margin-top: 1rem;
+}
+.judulpage5slide {
+  background-color: #272525;
+  height: 13vh;
+}
+.sideside {
+  display: flex;
+}
+.card-anim {
+  /* background: #272525; */
+  height: 60vh;
+  width: 74%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 10px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  transition: 0.6s;
+}
+.cardanimimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cardanimimg::before {
+  content: "";
+  transition: 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  clip-path: circle(100px at center);
+}
+.cardanimimg:hover:before {
+  background-color: rgb(33, 37, 37);
+  clip-path: circle(600px at center);
+  border-radius: 20px;
+}
+.promo-img {
+  height: 40vh;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: 0.3s;
+}
+.card-anim:hover .promo-img {
+  left: 70%;
+  transition: 0.4s;
+}
+.judul-anim {
+  color: #fefefe;
+}
+.deskripsipromo {
+  position: relative;
+  margin-left: 2rem;
+  transition: 0.5s;
+  left: 20%;
+  opacity: 0;
+  visibility: hidden;
+}
+.text-anim {
+  color: #fefefe;
+}
+.card-anim:hover .deskripsipromo {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+/* Kanan */
+.page5kanan {
+  /* background-color: #ff3300; */
+  height: 40vh;
+}
+.promokanan {
+  height: 20vh;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  /* margin-left: 4rem; */
+}
+.kananfoto1 {
+  margin-left: 2rem;
+  height: 23vh;
+  width: 40vh;
+  margin-top: 1rem;
+  border-radius: 15px;
+  background-color: #272525;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 4px 3px 4px 2px #000;
+  border: 2px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+.desdeta {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: -450px;
+  border-radius: 8px;
+  background-color: rgb(42, 62, 62);
+
+  box-shadow: 2px 2px 0px #641515;
+  transition: 1s;
+}
+.kanandeskripsi {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 0;
+
+  width: 100%;
+  height: 28%;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+  background: transparent;
+}
+.h1-detail {
+  font-size: 15px;
+  margin-left: 5rem;
+  font-weight: bold;
+  color: #fefefe;
+}
+.h1-detail1 {
+  font-size: 15px;
+  margin-left: 1rem;
+  margin-top: 6px;
+  font-weight: bold;
+  color: #fefefe;
+}
+.kananfoto1:hover .kanandeskripsi {
+  bottom: -75px;
+}
+.kananfoto1:hover .desdeta {
+  bottom: 0;
+}
+.hub-btn {
+  position: absolute;
+  top: 75%;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 10px;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .card-anim {
+    width: auto;
+    max-height: 350px;
+    align-items: flex-start;
+  }
+}

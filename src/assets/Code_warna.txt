@@ -1,0 +1,7 @@
+Background : ffff
+Background card : ffb20e
+Text 1 : fff
+text 2 : F17228
+buttons: ff7474
+f58d00
+ffb30e

@@ -1,0 +1,110 @@
+
+.fot-body{
+
+    position: relative;
+    width:100%;
+    height: 20vh;
+    padding: 10px 0px;
+    background: #323131;
+}
+.footer-con{
+    width:90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap :20px;
+}
+.footer-con .abaout h2{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-con .abaout p{
+    color: #fff;
+}
+.footer-con .abaout .fot-ul{
+    margin-top: 20px;
+    display: flex;
+    grid-template-columns: repeat(4.5px);
+}
+.footer-con .abaout .fot-ul li{
+    list-style: none;
+
+}
+.footer-con .abaout .fot-ul li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #333;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer-con .abaout .fot-ul .Ai {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-con .linkss{
+    position: relative;
+    color: #ffff;
+}
+.footer-con .linkss ul li{
+    list-style: none;
+}
+.footer-con .linkss ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+    display: inline-block;
+
+}
+.footer-con .contact {
+
+    color: #fff;
+}
+
+.footer-con .contact .fot-info{
+    position: relative;
+    margin-top: 30px;
+}
+.footer-con .contact .fot-info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+
+}
+.footer-con .contact .fot-info li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-con .contact .fot-info li span{
+    color: #fff;
+    font-size: 13px;
+    gap: 10px;
+}
+
+@media (max-width: 991px)
+{
+    .fot-body{
+        padding: 40px;
+    }
+    .fot-body .footer-con{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2.1fr);
+        gap: 20px;
+
+    }
+}
+@media (max-width: 765px){
+    .fot-body .footer-con{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1.1fr);
+        gap: 10px;
+
+    }
+}

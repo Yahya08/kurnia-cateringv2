@@ -1,0 +1,108 @@
+.tentang{
+    width: 100%;
+}
+.tentang-nav{
+    background-color: black;
+    height: 10vh;
+}
+.tentang-page{
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: #ffb20e;
+}
+.con-tentang{
+    display: block;
+    width: 100%;
+
+}
+.sub-tentang{
+    display: flex;
+}
+.blog{
+    height: 40vh;
+    width: 50%;
+    margin-left: 1rem;
+    border-radius: 12px;
+    /* display: block; */
+   
+}
+
+
+.card-tentang{
+    width: 95%;
+    background-color: #fff;
+    height: 40vh;
+    border-radius: 13px;
+    display: flex;
+    box-shadow: 2px 2px 5px 8px #00000031;
+
+    position: relative;
+    /* display: flex; */
+}
+.card-tentang2{
+    width: 95%;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 8px #00000015;
+
+    /* margin-left: 1rem; */
+    height: 40vh;
+    border-radius: 13px;
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+    /* display: flex; */
+}
+.card-tentang3{
+    width: 60%;
+    margin-left: 1.5rem;
+    background-color: #fff;
+    height: 60vh;
+    border-radius: 13px;
+    display: flex;
+    position: relative;
+    margin-top: 5rem;
+    box-shadow: 2px 2px 5px 8px #00000055;
+
+    /* display: flex; */
+}
+.tentang-img{
+    margin-top: 1rem;
+    height: 35vh;
+    width: 35vh;
+    margin-left: 1.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #080808;
+}
+/* // */
+
+.tentang2-txt h2{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* line-height: 2px; */
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+.tentang2-txt{
+    /* background-color: rgb(120, 125, 25); */
+    width: 100%;
+}
+.tentang2-txt h2 span{
+    font-size: 20px;
+    
+}
+.tentang2-txt p{
+    color: rgb(8, 8, 8);
+    margin-left: 3rem;
+    margin-top: 1rem;
+    /* line-height: 4rem; */
+
+
+}
