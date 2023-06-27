@@ -1,0 +1,85 @@
+/* YAHYA PUSH CODINGAN DIBAWAH INI */
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap");
+
+.subhome{
+  display: flex;
+  margin-top: 10vh;
+  width: 50%;
+  background-color: #ffb20e;
+  height:90vh;
+  width: 100%;
+  position: relative;
+  font-weight: 400;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.home{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-homee{
+  width: 50%;
+}
+
+.img-homee2{
+  background-color: #fff;
+  border-radius:45%;
+  height: 50vh;
+  width: 70vh;
+  margin-top: -50vh;
+}
+
+.img-homee3{
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+  margin-top: -40vh;
+}
+
+.img-homee4{
+  background-color: #fff;
+  border-radius: 30%;
+  height: 50vh;
+  width: 50vh;
+  margin-top: -65vh;
+  margin-left: 20vh;
+}
+
+.img-homee5{
+  background-color: #000000d7;
+  box-shadow: 5px 5px 10px 10px rgba(9, 9, 9, 0.71);
+
+  border-radius: 50%;
+  height: 40vh;
+  width: 50vh;
+  margin-top: -39vh;
+  margin-left: 10vh;
+}
+
+.img-home{
+  height: 50vh;
+  margin-top: 10rem;
+  margin-left: 4rem;
+}
+
+.home-text{
+  position: relative;
+  max-width: 600px;
+}
+
+.home .home-txt h2{
+  margin-left: 3rem;
+  margin-top: 6rem;
+  color: aliceblue;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.home .home-txt h2 span{
+  font-size: 5.5rem;
+}
