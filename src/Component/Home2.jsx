@@ -11,6 +11,7 @@ function Home2() {
             <p>Dengan melayani askaakhkahsdshdjkhsdxcx
                 jhg
             </p>
+             
             <Link to={"/reserfasi"}>Hubungi</Link>
             {/* <a href="">Kunjungi</a> */}
           </div>

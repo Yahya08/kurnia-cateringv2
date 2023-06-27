@@ -1,0 +1,72 @@
+subhome2 {
+    display: flex;
+    width: 50%;
+    background-color: #1a1a1a;
+    height: 70vh;
+    width: 100%;
+  }
+  .home2 {
+    justify-content: space-between;
+    /* display: flex; */
+    align-items: center;
+    background-color: blueviolet;
+  }
+  .subhome2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    font-weight: 400;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  .imgg {
+    width: 50%;
+  
+    /* background-color: #1a1a1a; */
+    /* border-radius: 10px; */
+  }
+  .img-home2 {
+    height: 50vh;
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+  .home2-text {
+    position: relative;
+    max-width: 600px;
+  }
+  .home2 .home2-txt h2 {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: aliceblue;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .home2 .home2-txt h2 span {
+    font-size: 5.5rem;
+  }
+  .home2 .home2-txt p {
+    color: antiquewhite;
+    margin-left: 4rem;
+    line-height: 4rem;
+  }
+  .home2 .home2-txt a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 6rem;
+    padding: 8px 20px;
+    color: black;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffba00;
+  
+    transition: 0.3s;
+  }
+  .home2-txt a:hover {
+    background-color: black;
+    color: aliceblue;
+  }
