@@ -29,3 +29,26 @@
   margin-left: 77%;
   font-size: 70px;
 }
+.spann {
+    display: flex;
+    text-align: end;
+    margin-left: 68%;
+    gap: 1rem;
+    margin-top: 3vh;
+  }
+  .page-text2 {
+    color: antiquewhite;
+    font-size: 70px;
+  }
+  .span2 {
+    color: aqua;
+    font-size: 50px;
+  }
+  .spanh3 {
+    font-size: 50px;
+  }
+  .deskripsi-page2 {
+    color: antiquewhite;
+    margin-right: 8.5rem;
+    font-size: 10px;
+  }
