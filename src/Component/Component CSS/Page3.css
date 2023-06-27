@@ -1,168 +1,93 @@
-<<<<<<< HEAD
 .lay-menu{
-    margin-top: 10vh;
+  margin-top: 10vh;
 }
 .menu-page3{
-    height: auto;
+  height: auto;
 }
 .judul-pg3{
-    /* background-color: rgb(210, 60, 60); */
-    width: 100%;
-    height: 20vh;
-    text-align: center;
+  /* background-color: rgb(210, 60, 60); */
+  width: 100%;
+  height: 20vh;
+  text-align: center;
 }
 .stylee-pg3{
-    display: flex;
+  display: flex;
 }
 .style-page3{
-    /* margin-top: 2rem; */
-    display: block;
-    /* border-radius: 30px; */
-    gap: 4px;
-    /* margin-left: 8rem; */
-    height:56vh;
-=======
-.lay-menu {
-    margin-top: 10vh;
-  }
-  .menu-page3 {
-    height: auto;
-  }
-  .judul-pg3 {
-    background-color: rgb(210, 60, 60);
-    width: 100%;
-    height: 20vh;
-    text-align: center;
-  }
-  .stylee-pg3 {
-    display: flex;
-  }
-  .style-page3 {
-    /* margin-top: 2rem; */
-    display: block;
-    /* border-radius: 30px; */
-    /* gap: 4px; */
-    /* margin-left: 8rem; */
-    height: 56vh;
->>>>>>> 6096361203fc603bcc00335743bd6c8b84f51a82
-    background-color: #ffffff;
-    /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.133); */
-    width: 100%;
-    overflow: hidden;
-<<<<<<< HEAD
+  /* margin-top: 2rem; */
+  display: block;
+  /* border-radius: 30px; */
+  gap: 4px;
+  /* margin-left: 8rem; */
+  height:56vh;
+  background-color: #ffffff;
+  /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.133); */
+  width: 100%;
+  overflow: hidden;
 
 }
 
 .card-page3{
-    width: 41vh;
-    margin-left: 5.5rem;
-    box-shadow: 2px 4px 5px 5px #000000be;
+  width: 41vh;
+  margin-left: 5.5rem;
+  box-shadow: 2px 4px 5px 5px #000000be;
 
-    
-=======
-  }
-  .garis-putus {
-    display: flex;
-  }
-  .card-page3 {
-    width: 40vh;
-    margin-left: 6rem;
   
->>>>>>> 6096361203fc603bcc00335743bd6c8b84f51a82
-    margin-top: 2vh;
-    height: 40vh;
-    border-radius: 10px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    transition: 1s;
-<<<<<<< HEAD
+  margin-top: 2vh;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  transition: 1s;
 }
 .card-page3:hover .img-page3{
-    height: 45vh;
-    transition: 1s;
+  height: 45vh;
+  transition: 1s;
 }
 .card-page3:hover .card-text3{
-    top: 0;
+  top: 0;
 }
 .img-page3{
-    height: 40vh;
-    width: 41vh;
-    object-fit: cover;
-    transition: 1s;
-    border: 1px solid #161616;
+  height: 40vh;
+  width: 41vh;
+  object-fit: cover;
+  transition: 1s;
+  border: 1px solid #161616;
 }
 .card-text3{
-    width: 41vh;
-    height: 40vh;
-    top: -40vh;
-    right:0;
-=======
-  }
-  .card-page3:hover .img-page3 {
-    height: 45vh;
-    transition: 1s;
-  }
-  .card-page3:hover .card-text3 {
-    top: 0;
-  }
-  .img-page3 {
-    height: 40vh;
-    width: 40vh;
-    object-fit: cover;
-    transition: 1s;
-  }
-  .card-text3 {
-    width: 40vh;
-    height: 40vh;
-    top: -40vh;
-    right: 0;
->>>>>>> 6096361203fc603bcc00335743bd6c8b84f51a82
-    position: absolute;
-    background-color: #36363a9c;
-    backdrop-filter: blur(1px);
-    color: aliceblue;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-<<<<<<< HEAD
-    transition: 1s;   
+  width: 41vh;
+  height: 40vh;
+  top: -40vh;
+  right:0;
+  position: absolute;
+  background-color: #36363a9c;
+  backdrop-filter: blur(1px);
+  color: aliceblue;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  transition: 1s;   
 }
 .menu-judul-pg3{
-    margin: 1rem;
-    text-transform: uppercase;
+  margin: 1rem;
+  text-transform: uppercase;
 }
 .deskripsi-judul-pg3{
-    margin: 1rem;
-    text-transform: capitalize;
-    
+  margin: 1rem;
+  text-transform: capitalize;
+  
 }
 .page3-judull{
-    margin-left: 11.5rem;
-    /* gap: 1rem; */
-    line-height: 4rem;
+  margin-left: 11.5rem;
+  /* gap: 1rem; */
+  line-height: 4rem;
 
 }
 
 /* /text */
 .judulpg3-1{
-    line-height: 4rem;
-    
+  line-height: 4rem;
+  
 }
 
-=======
-    transition: 1s;
-  }
-  .menu-judul-pg3 {
-    margin: 1rem;
-    text-transform: uppercase;
-  }
-  .deskripsi-judul-pg3 {
-    margin: 1rem;
-    text-transform: capitalize;
-  }
-  .page3-judull {
-    margin-left: 12rem;
-    gap: 1rem;
-  }  
->>>>>>> 6096361203fc603bcc00335743bd6c8b84f51a82
