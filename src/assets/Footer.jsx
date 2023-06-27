@@ -15,7 +15,7 @@ function Footer() {
       <div className="footer-con">
         <div className="abaout">
           <h2>About Us</h2>
-          <p>Didirikan pada tahun 2019 dan sekarang masih berjalan</p>
+          <p>Didirikan pada tahun 2020 dan sekarang sudah bangkrut</p>
           <ul className="fot-ul">
             <li>
               <a>
@@ -37,19 +37,19 @@ function Footer() {
         <div className="linkss">
           <h2>Tim</h2>
           <ul>
-            <li><a href="">Agus Kurniawan</a></li>
-            <li><a href="">Agus Kurniawan</a></li>
-            <li><a href="">Agus Kurniawan</a></li>
-            <li><a href="">Agus Kurniawan</a></li>
+            <li><a href="">Amalina Nur Sabrina 21.11.4334</a></li>
+            <li><a href="">Aviva Pradasyah 21.11.4335</a></li>
+            <li><a href="">Taufiq Dwi Aziz 21.11.4342</a></li>
+            <li><a href="">Yahya Handa Restanto 21.11.4365</a></li>
            
           </ul>
         </div>
         <div className="linkss">
           <h2>Tim</h2>
           <ul>
-            <li><a href="">Agus Kurniawan</a></li>
-            <li><a href="">Agus Kurniawan</a></li>
-            <li><a href="">Agus Kurniawan</a></li>
+            <li><a href="">Angga Airul Rohman 21.11.4384</a></li>
+            <li><a href="">Agus Kurniawan 21.11.4385</a></li>
+            <li><a href="">Khoirudin Yoga Pratama 21.11.4389</a></li>
            
 
           </ul>
@@ -59,11 +59,11 @@ function Footer() {
           <ul className="fot-info">
             <li>
               <span><AiOutlinePhone/></span>
-              <p><a href="">+62 8587 0847 511</a> </p>
+              <p><a href="https://wa.me/6285870847511">+62 85870847511</a> </p>
             </li>
             <li>
               <span><FiMail/></span>
-              <p><a href="">namapenggunanyagus@gmail.com</a> </p>
+              <p><a href="mailto:kurniacatering2020@gmail.com">kurniacatering2020@gmail.com</a> </p>
             </li>
           </ul>
         </div>
