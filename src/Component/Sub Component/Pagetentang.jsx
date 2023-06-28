@@ -17,13 +17,13 @@ function Page_tentang() {
         </div>
         <div className="sub-tentang">
           <div className="card-tentang3">
-            <img className="tentang-img" src={Img} alt="" />
             <div className="tentang2-txt">
               <h2>
                 Kurnia Catering <span>Nih bos</span>
               </h2>
               <p>Dengan melayani</p>
             </div>
+            <img className="tentang-img2" src={Img} alt="" />
           </div>
         </div>
       </div>

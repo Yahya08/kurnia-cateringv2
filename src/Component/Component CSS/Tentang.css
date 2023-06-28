@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     gap: 1rem;
-    height: auto;
+    height: 150vh;
     
     display: flex;
     width: 100%;
@@ -72,9 +72,18 @@
 }
 .tentang-img{
     margin-top: 1rem;
-    height: 35vh;
-    width: 35vh;
+    height: 55vh;
+    width: 60vh;
     margin-left: 1.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #080808;
+}
+.tentang-img2{
+    margin-top: 1rem;
+    height: 55vh;
+    width: 60vh;
+    margin-left: -1.rem;
     object-fit: cover;
     border-radius: 10px;
     border: 1px solid #080808;
