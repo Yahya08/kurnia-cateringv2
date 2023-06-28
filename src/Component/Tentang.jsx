@@ -3,7 +3,10 @@ import Footer from "../assets/Footer"
 import Navbar from "../assets/Navbar"
 import Datadiri from "./Datadiri"
 import Biodata from "./Biodata"
-import Pagetentang from "./Sub Component/Page_tentang"
+
+import Pagetentang from "./Sub Component/Pagetentang"
+
+
 function Tentang() {
   return (
     <div className="tentang">
@@ -18,7 +21,6 @@ function Tentang() {
       <Biodata/>
       </div>
       <Footer/>
-      
     </div>
   )
 }
