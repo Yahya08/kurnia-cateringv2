@@ -2,9 +2,8 @@ import "./Component CSS/Tentang.css"
 import Footer from "../assets/Footer"
 import Navbar from "../assets/Navbar"
 import Datadiri from "./Datadiri"
-import Pagetentang from "./Sub Component/Pagetentang"
-
-
+import Biodata from "./Biodata"
+import Page_tentang from "./Sub Component/Page_tentang"
 function Tentang() {
   return (
     <div className="tentang">
@@ -14,10 +13,12 @@ function Tentang() {
 
       <Navbar/>
       <div className="tentang-body">
-      <Pagetentang/>
+      <Page_tentang/>
       <Datadiri/>
+      <Biodata/>
       </div>
       <Footer/>
+      
     </div>
   )
 }
