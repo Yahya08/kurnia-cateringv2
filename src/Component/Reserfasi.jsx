@@ -21,7 +21,7 @@ function Reserfasi() {
           </div>
           <input type="email" placeholder="Email" required />
           <div className="name">
-            <input type="text-login" placeholder="Number Phon" required />
+            <input type="text-login" placeholder="Number Phone" required />
             <input type="date" placeholder="Last Name" required />
           </div>
           <button>Register</button>
