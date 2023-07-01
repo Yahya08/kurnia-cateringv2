@@ -1,7 +1,14 @@
 .loginlagi{
+<<<<<<< HEAD
     /* height: 140vh; */
     /* display: block; */
     background-color: #ffffff;
+=======
+
+  background: linear-gradient(90deg,#F17228 0%, #F17228 30%, #212121 30%,#212121 100%);
+    
+  
+>>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
   }
 
   .cont{
@@ -11,11 +18,9 @@
   .div-nav{
     height: 10vh;
     display: block;
-    /* border-radius: 1px solid #000; */
   }
   
   .fot-rese{
-    /* display: flex; */
     margin-top: 5vh;
     margin-left: 50vh;
   }
@@ -23,17 +28,27 @@
   /* Kanan  */
   .forn-container {
     color: #F17228;
-    width: 60%;
-    height: 85vh;
+    width: 150%;
+    height: 90vh;
+    
     background-color: #ffffff;
+<<<<<<< HEAD
     box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298);
+=======
+    /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298); */
+>>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
+<<<<<<< HEAD
     /* margin-top: 1rem; */
     /* margin-left: 9rem; */
     gap: 40px;
     /* padding: 30px 20px; */
+=======
+    position: relative;
+    gap: 20px;
+>>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
     text-align: center;
   }
 
@@ -54,10 +69,11 @@
 
   .forn-container input {
     padding: 8px 14px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border: none;
     outline: none;
     margin: 1rem;
+<<<<<<< HEAD
     background-color: #fff700;
   }
 
@@ -65,6 +81,19 @@
     background-color: #1a1a1a;
     width: 15px;
     height: 15px;
+=======
+    border: 1px solid #000;
+    /* background-color: #fff700; */
+  
+  }
+  .massage textarea{
+    width: 92%;
+    height: 22vh;
+    /* margin-left: -0.6rem; */
+    font-size: 15px;
+    padding: 10px;
+    
+>>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
   }
   
   .forn-container button {
@@ -77,7 +106,7 @@
     cursor: pointer;
     font-size: 15px;
     width: 30%;
-    margin-left: 36%;
+    margin-left: 1rem;
   }
 
   .forn-container button:hover {
@@ -93,7 +122,69 @@
     width: 38%;
   }
   
-  
+  /* /// New reservasi */
+  .body-reser{
+  height: 130vh;
+  }
+.hubung{
+    position: relative;
+   margin-left: 4rem;
+}
+  .boxreservasi{
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .contact-poss{
+    width: 82%;
+    height: 85vh;
+  }
+  .contact-info {
+    height: 30vh;
+    width: 70%;
+    margin-left: 16rem;
+    background-color: #ffff00;
+    border-radius: 15px;
+    position: relative;
+
+  }
+ .contch2{
+    margin-left: 1rem;
+
+    
+  }
+.map{
+  height: 57.6vh;
+  margin-top: 1rem;
+  margin-left: 16rem;
+  border: 1px solid #fff;
+  border-radius: 8px;
+
+
+ 
+}
+.contact-poss .contact-info li{
+  display: flex;
+}
+.contact-poss .contact-info a{
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+}
+.contact-poss .contact-info p{
+  font-size: 20px;
+}
+.icn-ress{
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: rgb(0, 0, 0);
+
+}
+
   
   
   
