@@ -1,14 +1,14 @@
 .loginlagi{
-<<<<<<< HEAD
+
     /* height: 140vh; */
     /* display: block; */
     background-color: #ffffff;
-=======
+
 
   background: linear-gradient(90deg,#F17228 0%, #F17228 30%, #212121 30%,#212121 100%);
     
   
->>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
+
   }
 
   .cont{
@@ -32,23 +32,23 @@
     height: 90vh;
     
     background-color: #ffffff;
-<<<<<<< HEAD
+
     box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298);
-=======
+
     /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298); */
->>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
+
     flex-direction: column;
     border-radius: 15px;
     display: flex;
-<<<<<<< HEAD
+
     /* margin-top: 1rem; */
     /* margin-left: 9rem; */
     gap: 40px;
     /* padding: 30px 20px; */
-=======
+
     position: relative;
     gap: 20px;
->>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
+
     text-align: center;
   }
 
@@ -73,7 +73,7 @@
     border: none;
     outline: none;
     margin: 1rem;
-<<<<<<< HEAD
+
     background-color: #fff700;
   }
 
@@ -81,7 +81,7 @@
     background-color: #1a1a1a;
     width: 15px;
     height: 15px;
-=======
+
     border: 1px solid #000;
     /* background-color: #fff700; */
   
@@ -93,7 +93,7 @@
     font-size: 15px;
     padding: 10px;
     
->>>>>>> 30a44a113b1810dfdba59a9e36327e157b63a3bc
+
   }
   
   .forn-container button {
