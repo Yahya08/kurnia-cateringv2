@@ -6,10 +6,7 @@ function Datadiri() {
   return (
     <div className="datadiri">
         <div className="web">
-
-     
           <div className="swipe-diri">
-          
           <div className="card-diri">
             <img className="diri-img" src={Img} alt="" />
             <div className="diri-text">
@@ -45,10 +42,6 @@ function Datadiri() {
               <p className="deskripsi-diri">Blablabla</p>
             </div>
           </div>
-         
-          
-          
-          
         </div>
         </div>
     </div>

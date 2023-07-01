@@ -110,7 +110,6 @@
   color: aliceblue;
 }
 
-/* Font */
 .font-ul{
   font-weight: 600;
   letter-spacing: 2px;
@@ -151,8 +150,8 @@
   background-color:#ffb20e;
   border-left: 1px solid #ffb20e;;
   animation: typing 3s steps(14) infinite;
-
 }
+
 @keyframes typing{
   40%,
   60%{

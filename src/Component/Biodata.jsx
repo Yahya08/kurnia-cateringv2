@@ -24,7 +24,7 @@ function Font() {
                     <ul>
                         <a href="https://github.com/amalina30"><AiFillGithub className="biodata-icon-github"/></a>
                         <a href="https://wa.me/6285712872931"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://instagram.com/amalina___ns"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -42,8 +42,8 @@ function Font() {
                     </div> 
                     <ul>
                         <a href="https://github.com/Avivapradasyah"><AiFillGithub className="biodata-icon-github"/></a>
-                        <a href="http://wa.me/6282350750276"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://wa.me/6282350750276"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
+                        <a href="https://instagram.com/avivapradasyahh"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -62,7 +62,7 @@ function Font() {
                     <ul>
                         <a href="https://github.com/taufiqdaziz"><AiFillGithub className="biodata-icon-github"/></a>
                         <a href="https://wa.me/6285868900924"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://instagram.com/taufiqdwiaziz"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -81,7 +81,7 @@ function Font() {
                     <ul>
                         <a href="https://github.com/Yahya08"><AiFillGithub className="biodata-icon-github"/></a>
                         <a href="https://wa.me/6282248655686"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://instagram.com/yahyahnda_"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -99,8 +99,8 @@ function Font() {
                     </div> 
                     <ul>
                         <a href="https://github.com/anggaarl"><AiFillGithub className="biodata-icon-github"/></a>
-                        <a href="http://wa.me/6285700005003"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://wa.me/6285700005003"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
+                        <a href="https://instagram.com/anggaarl_"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -119,7 +119,7 @@ function Font() {
                     <ul>
                         <a href="https://github.com/agus4385"><AiFillGithub className="biodata-icon-github"/></a>
                         <a href="https://wa.me/6285870847511"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://instagram.com/ini.agusss"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>
@@ -138,7 +138,7 @@ function Font() {
                     <ul>
                         <a href="https://github.com/KhoirudinYoga"><AiFillGithub className="biodata-icon-github"/></a>
                         <a href="https://wa.me/6282387389780"><IoLogoWhatsapp className="biodata-icon-whatsapp"/></a>
-                        <a href="#"><AiFillInstagram className="biodata-icon-instagram"/></a>
+                        <a href="https://instagram.com/khoirudin.yoga"><AiFillInstagram className="biodata-icon-instagram"/></a>
                         <a href="#"><FaFacebook className="biodata-icon"/></a>
                     
                     </ul>

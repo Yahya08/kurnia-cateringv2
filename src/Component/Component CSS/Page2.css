@@ -3,6 +3,7 @@
   height: 100vh;
   background: url("../../assets/Img/Makanan.jpg");
 }
+
 .subpage2 {
   height: 100vh;
   width: 100%;
@@ -22,6 +23,7 @@
   margin-left: 80%;
   font-size: 70px;
 }
+
 .h2 {
   color: antiquewhite;
   display: flex;
@@ -29,6 +31,7 @@
   margin-left: 77%;
   font-size: 70px;
 }
+
 .spann {
     display: flex;
     text-align: end;
