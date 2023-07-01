@@ -1,11 +1,15 @@
 /* YAHYA PUSH CODINGAN DIBAWAH INI */
 @import url("https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap");
+.home{
+  justify-content: space-between;
+  align-items: center;
+}
 
 .subhome{
   display: flex;
   margin-top: 10vh;
   width: 50%;
-  background-color: #ffb20e;
+  /* background-color: #fff; */
   height:90vh;
   width: 100%;
   position: relative;
@@ -13,18 +17,29 @@
   text-decoration: none;
   justify-content: space-between;
 }
-
-.home{
-  justify-content: space-between;
-  align-items: center;
+.backhome{
+  height: 100vh;
+  position: absolute;
+  filter: blur(4px);
+  width: 100%;
 }
+
 
 .img-homee{
   width: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+.color-page{
+  height: 100vh;
+  width: 65%;
+  background-color: rgba(0, 0, 0, 0.8);
+
+
 }
 
 .img-homee2{
-  background-color: #fff;
+  background-color: #fffffff7;
   border-radius:45%;
   height: 50vh;
   width: 70vh;
@@ -32,7 +47,7 @@
 }
 
 .img-homee3{
-  background-color: #fff;
+  background-color: #fffffff7;
   border-radius: 50%;
   height: 50vh;
   width: 50vh;
@@ -40,7 +55,7 @@
 }
 
 .img-homee4{
-  background-color: #fff;
+  background-color: #fffffff7;
   border-radius: 30%;
   height: 50vh;
   width: 50vh;
@@ -61,104 +76,42 @@
 
 .img-home{
   height: 50vh;
-  margin-top: 10rem;
+  margin-top: 12rem;
   margin-left: 4rem;
+  opacity: 0.7;
 }
 
-.home-text{
-  position: relative;
-  max-width: 600px;
-}
-
-.home .home-txt h2{
-  margin-left: 3rem;
-  margin-top: 6rem;
-  color: aliceblue;
-  font-size: 4rem;
-  line-height: 4rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.home .home-txt h2 span{
-  font-size: 5.5rem;
-}
-
-.home .home-txt p{
-  color: antiquewhite;
-  margin-left: 4rem;
-  line-height: 4rem;
-}
-
-.home .home-txt a{
-  display: inline-block;
-  margin-top: 80px;
-  margin-left: 4rem;
-  padding: 8px 20px;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: #3b3a38;
-  transition: 0.3s;
-}
-
-.home-txt a:hover{
-  background-color: black;
-  color: aliceblue;
-}
-
-/* Font */
-.font-ul{
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  height: 90px;
-  line-height: 10px;
-  margin-top: 2rem;
-  overflow: hidden;
-}
-
-.font-ul li{
-  margin-left: 3rem;
-  list-style: none;
-  font-size: 70px;
-  font-weight: 600;
+/* //Fix Home */
+.home-txt{
   color: #F17228;
-  animation: slide 12s steps(4) infinite;
+  margin-top: 10vh;
+  margin-left: 2rem;
 }
+.home-txt p{
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
 
-@keyframes slide{
+}
+.home-txt h1{
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff8a;
+  background: url("../../assets/Img/Card/backgrounfix1.jpg");
+  background-position: 0 0;
+  animation: back 10s linear infinite;
+  -webkit-background-clip: text;
+  
+}
+@keyframes back{
   100%{
-    top: -360px;
+    background-position: 2000px 0;
   }
-}
-
-.font-ul li span{
-  position: relative;
-  margin: 5px 0;
-  line-height: 90px;
-}
-
-.font-ul li span::after{
-  content:'';
-  position: absolute;
-  left: 0;
-  height: 90px;
-  width: 100%;
-  background-color:#ffb20e;
-  border-left: 1px solid #ffb20e;;
-  animation: typing 3s steps(14) infinite;
 
 }
-@keyframes typing{
-  40%,
-  60%{
-      left: calc(100% + 30px);
-  }
-  100%{
-    left: 0;
-  }
+.home-txt h3{
+  margin-top: 2rem;
+  font-weight: 600;
 }

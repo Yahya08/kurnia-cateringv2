@@ -1,23 +1,23 @@
 import "./Component CSS/Page1.css";
+import backg from ".././assets/Img/Card/backgrounfix2.jpg";
+
 import Gmbr from ".././assets/Img/Card/png1.png";
 // import { Link } from "react-router-dom";
 
 // import Subpage1 from "./Subpage1"
-// import Back from "../assets/Img/Makanan.jpg";
 
 function Page1() {
   return (
     <div className="home">
+      <img className="backhome" src={backg} alt="" />
       <div className="subhome">
+        <div className="color-page">
+
         <div className="home-txt">
-          <ul className="font-ul">
-          <li> <span>Catering</span></li>
-          </ul>
-          <h2>
-            Kurnia Catering <span>Nih bos</span>
-          </h2>
-          <p>Dengan melayani askaakhkahsdshdjkhsdxcx jhg</p>
-          <a href="">Kunjungi</a>
+        <p>Selamat Datang di</p>
+        <h1>Kurnia catering</h1>
+        <h3>Siap melayai acara Anda</h3>
+        </div>
 
         </div>
         <div className="img-homee">
