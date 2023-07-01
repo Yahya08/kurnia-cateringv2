@@ -238,6 +238,10 @@
 .text-anim{
     color: #ffffff;
 }
+.text-anim1{
+    color: #ffffff; 
+    padding-top: 10px;
+}
 
 .card-anim:hover .deskripsipromo{
     left: 0;
@@ -249,12 +253,40 @@
 .page5kanan{
     height: 60vh;
 }
+.bakso{
+    height: 15vh;
+    width: 190px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.barbaque{
+    height: 20vh;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 1rem;
+    margin-top: 6px;
+    position: justify;
+    font-weight: bold;
+    color: #ffffff;
+}
+.harga{
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 6px;
+    font-weight: bold;
+    color: #ffb20e;
+}
+
 
 .promokanan{
     height: 20vh;
     margin-top: -0.5rem;
     margin-left: 1rem;
-    /* margin-left: 4rem; */
 }
 
 .kananfoto1{
@@ -263,7 +295,7 @@
     width: 40vh;
     margin-top: 2rem;
     border-radius: 15px;
-    background-color: #ffb20e;
+    background-color: #ff7d04;
     background-size: cover;
     background-position: center;
     /* box-shadow: 4px 3px 4px 6px #000; */
@@ -319,7 +351,18 @@
 .kananfoto1:hover .desdeta{
     bottom: 0;
 }
-
+.hub-btn:hover{
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+    color: #ff7d04;
+    border-radius: 5px;
+    font-size: 10px;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .hub-btn{
     position: absolute;
     top: 75%;
