@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-.navbar {
+.navbar{
   max-width: 100%;
   height: 10vh;
   display: grid;
@@ -13,13 +13,13 @@
   background: #323131;
 }
 
-.navbar h1 {
+.navbar h1{
   margin-right: 480px;
   color: #ffb30e;
   font-family: "Montserrat", sans-serif;
 }
 
-nav {
+nav{
   position: relative;
   margin-right: 10px;
   width: 100%;
@@ -27,7 +27,7 @@ nav {
   background: #323131;
 }
 
-nav a {
+nav a{
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #ffb30e;
@@ -38,7 +38,8 @@ nav a {
   display: inline-block;
   text-align: center;
 }
-nav .animation {
+
+nav .animation{
   position: absolute;
   height: 100%;
   top: 0;
@@ -47,6 +48,7 @@ nav .animation {
   border-radius: 8px;
   transition: all 0.7s ease 0s;
 }
+
 nav a:nth-child(1) {
   width: 100px;
 }
@@ -55,23 +57,29 @@ a:nth-child(1):hover ~ .animation {
   width: 100px;
   left: 0;
 }
+
 nav a:nth-child(2) {
   width: 100px;
 }
+
 nav a:nth-child(2):hover ~ .animation {
   width: 100px;
   left: 100px;
 }
+
 nav a:nth-child(3) {
   width: 100px;
 }
+
 nav a:nth-child(3):hover ~ .animation {
   width: 100px;
   left: 200px;
 }
+
 nav a:nth-child(4) {
   width: 100px;
 }
+
 nav a:nth-child(4):hover ~ .animation {
   width: 100px;
   left: 300px;

@@ -41,7 +41,6 @@ function Footer() {
             <li><a href="https://github.com/Avivapradasyah">Aviva Pradasyah 21.11.4335</a></li>
             <li><a href="https://github.com/taufiqdaziz">Taufiq Dwi Aziz 21.11.4342</a></li>
             <li><a href="https://github.com/Yahya08">Yahya Handa Restanto 21.11.4365</a></li>
-           
           </ul>
         </div>
         <div className="linkss">
@@ -50,8 +49,6 @@ function Footer() {
             <li><a href="https://github.com/anggaarl">Angga Airul Rohman 21.11.4384</a></li>
             <li><a href="https://github.com/agus4385">Agus Kurniawan 21.11.4385</a></li>
             <li><a href="https://github.com/KhoirudinYoga">Khoirudin Yoga Pratama 21.11.4389</a></li>
-           
-
           </ul>
         </div>
         <div className="contact">

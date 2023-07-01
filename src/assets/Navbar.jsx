@@ -10,8 +10,6 @@ function Navbar() {
         <Link to={"/menu"} >Menu</Link>
         <Link to={"/reserfasi"}>Kontak</Link>
         <Link to={"/tentang"} >Tentang</Link>
-
-
         {/* <a href="#">Beranda</a> */}
         {/* <a href="#">Menu</a>
         <a href="#">Kontak</a>

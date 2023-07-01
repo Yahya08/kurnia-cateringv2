@@ -1,12 +1,20 @@
 .loginlagi{
 
+    /* height: 140vh; */
+    /* display: block; */
+    background-color: #ffffff;
+
+
   background: linear-gradient(90deg,#F17228 0%, #F17228 30%, #212121 30%,#212121 100%);
   
   
+
   }
+
   .cont{
     height: 110vh;
   }
+
   .div-nav{
     height: 10vh;
     display: block;
@@ -16,6 +24,7 @@
     margin-top: 5vh;
     margin-left: 50vh;
   }
+
   /* Kanan  */
   .forn-container {
     color: #F17228;
@@ -23,34 +32,56 @@
     height: 90vh;
     
     background-color: #ffffff;
+
+    box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298);
+
     /* box-shadow: 3px 3px 10px 16px rgba(137, 137, 137, 0.298); */
+
     flex-direction: column;
     border-radius: 15px;
     display: flex;
+
+    /* margin-top: 1rem; */
+    /* margin-left: 9rem; */
+    gap: 40px;
+    /* padding: 30px 20px; */
+
     position: relative;
     gap: 20px;
+
     text-align: center;
   }
+
   .forn-container h2{
     color: #F17228;
     margin-top: 10px;
     text-transform: uppercase;
-  
-    
   }
+
   .name {
     display: flex;
     justify-content: space-between;
   }
+
   .name input {
     width: 50%;
   }
+
   .forn-container input {
     padding: 8px 14px;
     /* border-radius: 10px; */
     border: none;
     outline: none;
     margin: 1rem;
+
+    background-color: #fff700;
+  }
+
+  .forn-container input[type="checkbox"] {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+
     border: 1px solid #000;
     /* background-color: #fff700; */
   
@@ -62,6 +93,7 @@
     font-size: 15px;
     padding: 10px;
     
+
   }
   
   .forn-container button {
@@ -73,10 +105,10 @@
     color: #212121;
     cursor: pointer;
     font-size: 15px;
-    
     width: 30%;
     margin-left: 1rem;
   }
+
   .forn-container button:hover {
     background-color: #212121;
     color: #fff;
@@ -85,6 +117,7 @@
   .forn-container button:active {
     background-color: #212121;
   }
+  
   .phon{
     width: 38%;
   }

@@ -6,7 +6,7 @@ function Page2() {
     <div className="hal-dua">
      
         
-        
+     
     </div>
     )
   }
