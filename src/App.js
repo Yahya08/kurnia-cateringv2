@@ -1,5 +1,5 @@
 import Home from './Component/Home'
-import Reserfasi from './Component/Reserfasi'
+import Reservasi from './Component/Reservasi'
 import Page3 from './Component/Page3'
 import Tentang from './Component/Tentang'
 // import Reserfasi from './Component/Reserfasi'
@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/reserfasi' element={<Reserfasi/>} />
+        <Route path='/reservasi' element={<Reservasi/>} />
         <Route path='/menu' element={<Page3/>} />
         <Route path='/tentang' element={<Tentang/>} />
-        <Route path='/reserfasi' element={<Reserfasi/>} />
+        <Route path='/reservasi' element={<Reservasi/>} />
 
       </Routes>
     </Router>

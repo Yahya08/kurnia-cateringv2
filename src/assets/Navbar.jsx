@@ -8,7 +8,7 @@ function Navbar() {
       <nav>
         <Link to={"/"} >Beranda</Link>
         <Link to={"/menu"} >Menu</Link>
-        <Link to={"/reserfasi"}>Kontak</Link>
+        <Link to={"/reservasi"}>Kontak</Link>
         <Link to={"/tentang"} >Tentang</Link>
         {/* <a href="#">Beranda</a> */}
         {/* <a href="#">Menu</a>

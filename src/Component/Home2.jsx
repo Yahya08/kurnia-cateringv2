@@ -17,7 +17,7 @@ function Home2() {
           </div>
             <div className="pilih">
               <a href="./Sub Component/Page3_1.jsx">Lihat Menu</a>
-              <Link to={"/reserfasi"}>Hubungi</Link>
+              <Link to={"/reservasi"}>Hubungi</Link>
             </div>
           {/* <a href="">Kunjungi</a> */}
         </div>
