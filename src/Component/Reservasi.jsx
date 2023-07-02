@@ -29,7 +29,7 @@ const CateringReservationForm = () => {
 
     // Konfigurasi EmailJS
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_3bt41ry", "template_crxtm6c", e.target, "oSBkeDUj0MNhyMeX5")
       .then(
         (result) => {
           console.log(result.text);
@@ -113,10 +113,11 @@ const CateringReservationForm = () => {
       <div className="navbar">
         <Navbar />
       </div>
+
       <div className="contacts">
       <div className="titlecontact" >
-          <h1>Kurnia Catering</h1>
-          <p>Ada beberapa hidangan yang kami tawarkan mulai dari <br/>hidangan pembuka hidangan utama sampai hidangan penutup</p>
+          <h1>Contact</h1>
+          {/* <p>Ada beberapa hidangan yang kami tawarkan mulai dari <br/>hidangan pembuka hidangan utama sampai hidangan penutup</p> */}
       </div>
 
          <img className="backhome" src={background} alt="" />
@@ -133,7 +134,7 @@ const CateringReservationForm = () => {
             <h2>Booking</h2>
             <div className="nama-email">
               <input
-                type="text"
+                type="text" name="user_name"
                 placeholder={isNameClicked ? "" : "Nama"}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -142,7 +143,7 @@ const CateringReservationForm = () => {
               />
 
               <input
-                type="email"
+                type="email" name="user_email"
                 placeholder={isEmailClicked ? "" : "Email"}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -153,7 +154,7 @@ const CateringReservationForm = () => {
 
             <div className="noTelp-TglAcara">
               <input
-                type="text"
+                type="text" name="user_number"
                 placeholder={isPhoneClicked ? "" : "Nomor Telepon"}
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
@@ -161,7 +162,7 @@ const CateringReservationForm = () => {
                 onBlur={handlePhoneInputBlur}
               />
               <input
-                type="text"
+                type="text" name="user_date"
                 placeholder={isDateClicked ? "" : "Tanggal Acara"}
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
@@ -172,7 +173,7 @@ const CateringReservationForm = () => {
 
             <div className="jumlah-jam">
               <input
-                type="text"
+                type="text" name="user_volume"
                 placeholder={isVolumeClicked ? "" : "Jumlah Pesanan"}
                 value={volume}
                 onChange={(e) => setVolume(e.target.value)}
@@ -180,7 +181,7 @@ const CateringReservationForm = () => {
                 onBlur={handleVolumeInputBlur}
               />
               <input
-                type="text"
+                type="text" name="user_time"
                 placeholder={isTimeClicked ? "" : "Jam"}
                 value={time}
                 onChange={(e) => setTime(e.target.value)}
@@ -188,7 +189,7 @@ const CateringReservationForm = () => {
                 onBlur={handleTimeInputBlur}
               />
             </div>
-            <textarea 
+            <textarea  name="message"
               className="my-textarea-class"
               placeholder={isMessageClicked ? "" : "Pesan"}
               value={message}
@@ -201,9 +202,9 @@ const CateringReservationForm = () => {
         </div>
 
         <div className="info-contacts">
-          <div className="contact-poss">
+            <h2>Contact</h2>
             <ul>
-              {/* <li>
+              <li>
                 <FiMail className="icn-ress" />
                 <a href="mailto:kurniacatering2020@gmail.com">
                   Email
@@ -216,9 +217,8 @@ const CateringReservationForm = () => {
                   WhatsApp
                   <p>085870847511</p>
                 </a>
-              </li> */}
+              </li>
             </ul>
-          </div>
         </div>
       </div>
       <Footer />
