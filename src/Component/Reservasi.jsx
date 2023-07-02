@@ -1,4 +1,5 @@
 import "./Component CSS/Reservasi.css";
+import background from ".././assets/Img/Card/backgrounfix2.jpg";
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -112,7 +113,14 @@ const CateringReservationForm = () => {
         <Navbar />
       </div>
       <div className="contacts">
-        <h1>Contacts</h1>
+      <div className="titlecontact" >
+          <h1>Kurnia Catering</h1>
+
+          <p>Ada beberapa hidangan yang kami tawarkan mulai dari <br/>hidangan pembuka hidangan utama sampai hidangan penutup</p>
+      </div>
+
+         <img className="backhome" src={background} alt="" />
+         
       </div>
 
       <div className="body-reservasi">
@@ -183,7 +191,7 @@ const CateringReservationForm = () => {
               onClick={handleMessageInputClick}
               onBlur={handleMessageInputBlur}
             ></textarea>
-            <button type="submit">Kirim</button>
+            <button type="submit" className="button-kirim">Kirim</button>
           </form>
         </div>
 
