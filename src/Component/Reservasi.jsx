@@ -44,7 +44,7 @@ const CateringReservationForm = () => {
 
     // Reset form setelah mengirim email
     setName("");
-    setEmail("");
+    setEmail(""); 
     setPhone("");
     setDate("");
     setTime("");
