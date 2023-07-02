@@ -33,7 +33,7 @@
   animation: back 10s linear infinite;
   -webkit-background-clip: text;
 }
- 
+
 .titlecontact h1,
 .titlecontact h2,
 .titlecontact p {
@@ -49,7 +49,8 @@
 
 .form-reservasi {
   width: 75%;
-  padding-top: 50vh;
+  padding-top: 10vh;
+  padding-left: 20vh;
 }
 
 .form {
@@ -60,6 +61,7 @@
   flex-direction: column;
   border-radius: 15px;
   gap: 40px;
+  padding-left: 10PX;
   position: relative;
   gap: 20px;
   text-align: center;
@@ -136,4 +138,16 @@
   background-color: #f55f09;
   width: 101px;
   height: 46px;
+}
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.cheff {
+  width: 200px; /* Atur ukuran gambar sesuai kebutuhan */
+  height: auto;
+  padding-top: 10%;
+  margin-left: 10px; /* Atur margin kiri sesuai kebutuhan */
 }

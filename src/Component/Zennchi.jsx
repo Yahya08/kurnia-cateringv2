@@ -6,6 +6,7 @@ import jelly from "../assets/Img/Card/jelly.jpeg";
 import bakso from "../assets/Img/Card/bakso.png";
 import barbaque from"../assets/Img/Card/barbecue.png";
 import { Link } from "react-router-dom";
+
 function Zennchi() {
   return (
     <div className="bodyzeen">
