@@ -16,7 +16,6 @@ function Home2() {
             hidangan utama sampai hidangan penutup</p>
           </div>
             <div className="pilih">
-              <a href="./Sub Component/Page3_1.jsx">Lihat Menu</a>
               <Link to={"/reservasi"}>Hubungi</Link>
             </div>
           {/* <a href="">Kunjungi</a> */}
