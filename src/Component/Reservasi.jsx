@@ -6,6 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FiMail } from "react-icons/fi";
 import Navbar from "../assets/Navbar";
 import Footer from "../assets/Footer";
+import cheft from ".././assets/Img/Card/cheft.png";
 
 const CateringReservationForm = () => {
   const [name, setName] = useState("");
@@ -115,13 +116,16 @@ const CateringReservationForm = () => {
       <div className="contacts">
       <div className="titlecontact" >
           <h1>Kurnia Catering</h1>
-
           <p>Ada beberapa hidangan yang kami tawarkan mulai dari <br/>hidangan pembuka hidangan utama sampai hidangan penutup</p>
       </div>
 
          <img className="backhome" src={background} alt="" />
          
       </div>
+
+      <div className="img">
+          <img className="cheff" src={cheft} alt="" />
+        </div>
 
       <div className="body-reservasi">
         <div className="form-reservasi">
@@ -184,7 +188,8 @@ const CateringReservationForm = () => {
                 onBlur={handleTimeInputBlur}
               />
             </div>
-            <textarea
+            <textarea 
+              className="my-textarea-class"
               placeholder={isMessageClicked ? "" : "Pesan"}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -198,7 +203,7 @@ const CateringReservationForm = () => {
         <div className="info-contacts">
           <div className="contact-poss">
             <ul>
-              <li>
+              {/* <li>
                 <FiMail className="icn-ress" />
                 <a href="mailto:kurniacatering2020@gmail.com">
                   Email
@@ -211,7 +216,7 @@ const CateringReservationForm = () => {
                   WhatsApp
                   <p>085870847511</p>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
