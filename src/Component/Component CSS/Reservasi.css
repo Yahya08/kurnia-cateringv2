@@ -1,14 +1,58 @@
 .contacts {
   width: 100%;
   height: 50vh;
-  background-color: aqua;
-  padding-top: 10vh;
+  position: relative;
 }
 
-.form-reservasi{
-  width: 75%;
+.backhome {
+  height: 100vh;
+  position: absolute;
+  filter: blur(4px);
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.form{
+
+.titlecontact {
+  padding-top: 150px;
+  position: absolute;
+  /* top: 50%; */
+  left: 10%;
+  /* transform: translateX(-50%) translateY(-50%); */
+  text-align: center;
+}
+.titlecontact h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 80px;
+  padding-bottom: 10px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff8a;
+  background: url("../../assets/Img/Card/backgrounfix1.jpg");
+  background-position: 0 0;
+  animation: back 10s linear infinite;
+  -webkit-background-clip: text;
+}
+ 
+.titlecontact h1,
+.titlecontact h2,
+.titlecontact p {
+  margin: 0;
+}
+
+.titlecontact p {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 40px;
+  color:#f17228;
+}
+
+.form-reservasi {
+  width: 75%;
+  padding-top: 50vh;
+}
+
+.form {
   color: #8989894c;
   width: 100%;
   height: 90vh;
@@ -18,19 +62,18 @@
   gap: 40px;
   position: relative;
   gap: 20px;
-
   text-align: center;
 }
 
-.form h2{
-  color: #F17228;
-  margin-top: 10px;
+.form h2 {
+  color: #f17228;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-transform: uppercase;
 }
 
-.form input{
+.form input {
   padding: 8px 14px;
-  /* border-radius: 10px; */
   border: 1.5px solid #e1e1e1;
   font-size: 15px;
   outline: none;
@@ -39,9 +82,8 @@
   background-color: #ffffff;
 }
 
-.form textarea{
+.form textarea {
   padding: 8px 14px;
-  /* border-radius: 10px; */
   border: 1.5px solid #e1e1e1;
   font-size: 15px;
   outline: none;
@@ -49,12 +91,13 @@
   height: 100px;
   background-color: #ffffff;
 }
+
 .nama-email {
   display: flex;
   justify-content: space-between;
 }
 
-.nama-email input{
+.nama-email input {
   width: 50%;
 }
 
@@ -63,16 +106,34 @@
   justify-content: space-between;
 }
 
-.noTelp-TglAcara input{
+.noTelp-TglAcara input {
   width: 50%;
 }
 
-.jumlah-jam{
+.jumlah-jam {
   display: flex;
   justify-content: space-between;
 }
 
-.jumlah-jam input{
+.jumlah-jam input {
   width: 50%;
 }
 
+.button-kirim {
+  font-size: 16px; /* Misalnya, ukuran font 16 piksel */
+  padding: 10px 20px;
+  background-color : #f17228;
+  cursor:pointer;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 30px;
+  width: 100px;
+  height: 45px;
+  color : #212121;
+  text-align: center;
+  
+}
+.button-kirim:hover{
+  background-color: #f55f09;
+  width: 101px;
+  height: 46px;
+}

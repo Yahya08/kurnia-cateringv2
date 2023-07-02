@@ -1,8 +1,5 @@
 import "../Component/Component CSS/Zenn.css";
-import Img from "../assets/Img/Card/2b28d9c2-703d-4430-a653-3c971bdf0ce4.jpg";
 import Promo from "../assets/Img/Card/png1.png";
-import rendang from "../assets/Img/Card/rendang.jpeg";
-import gulai from "../assets/Img/Card/gulai-Riau.jpg";
 import mangut from "../assets/Img/Card/mangut.jpg";
 import apetizer from  "../assets/Img/Card/apetizer.jpg";
 import jelly from "../assets/Img/Card/jelly.jpeg";
@@ -15,11 +12,8 @@ function Zennchi() {
       <div className="judul-pg">
         <h1 className="judulpd-h1">Kami juga Meyediakan</h1>
         <h1 className="judulpd-h1">Beberapa Jenis Makanan</h1>
-       
         <div className="style">
-         
         <div className="swipe">
-          
           <div className="card-makanan">
             <img className="card-img" src={apetizer} alt="" />
             <div className="card-text">
@@ -46,21 +40,15 @@ function Zennchi() {
           <Link className="btn-swp" to={"/menu"}> <br />Swipe Next </Link>
         </div>
         </div>
-
         <div className="page5slide">
-         
-          {/* <h1 className="judulpa?ge5slide">judul</h1> */}
           <div className="sideside">
             <div className="card-anim">
               <div className="cardanimimg">
                 <div className="card-animdes">
-
                 <h1>Cobain Beberapa Hidangan </h1>
                 <h1>Yang Kami Tawarkan </h1>
                 <h2>Dijamin</h2>
-
                 <h1 className="card-p">P<span className="spanp">uas !!</span></h1>
-
                 </div>
               </div>
               <div className="deskripsipromo">
