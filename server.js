@@ -16,9 +16,11 @@ const db = mysql.createConnection({
 });
 
 // Endpoints untuk API
-app.get("/dataMenu", (req, res) => {
+app.get("/dataMenu/:jenis", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-  db.query("SELECT * FROM data_menu", (error, result) => {
+  db.query("SELECT * FROM data_menu WHERE jenis = ?", 
+  [jenis],
+  (error, result) => {
     if (error) {
       console.error("Terjadi kesalahan dalam kueri:", error);
       res.status(500).json({ error: "Terjadi kesalahan dalam server" });
