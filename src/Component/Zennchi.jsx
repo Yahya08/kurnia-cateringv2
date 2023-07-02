@@ -4,6 +4,8 @@ import Promo from "../assets/Img/Card/png1.png";
 import rendang from "../assets/Img/Card/rendang.jpeg";
 import gulai from "../assets/Img/Card/gulai-Riau.jpg";
 import mangut from "../assets/Img/Card/mangut.jpg";
+import apetizer from  "../assets/Img/Card/apetizer.jpg";
+import jelly from "../assets/Img/Card/jelly.jpeg";
 import bakso from "../assets/Img/Card/bakso.png";
 import barbaque from"../assets/Img/Card/barbecue.png";
 import { Link } from "react-router-dom";
@@ -19,24 +21,24 @@ function Zennchi() {
         <div className="swipe">
           
           <div className="card-makanan">
+            <img className="card-img" src={apetizer} alt="" />
+            <div className="card-text">
+              <h1 className="menu-judul">Apetizer</h1>
+              <p className="deskripsi-judul">Italian food</p>
+            </div>
+          </div>
+          <div className="card-makanan">
             <img className="card-img" src={mangut} alt="" />
             <div className="card-text">
               <h1 className="menu-judul">Mangut</h1>
-              <p className="deskripsi-judul">Makanan Khas Daerah Pati</p>
+              <p className="deskripsi-judul">Makanan Khas Daerah Pati </p>
             </div>
           </div>
           <div className="card-makanan">
-            <img className="card-img" src={rendang} alt="" />
+            <img className="card-img" src={jelly} alt="" />
             <div className="card-text">
-              <h1 className="menu-judul">Rendang</h1>
-              <p className="deskripsi-judul">Makanan Khas Daerah Padang </p>
-            </div>
-          </div>
-          <div className="card-makanan">
-            <img className="card-img" src={gulai} alt="" />
-            <div className="card-text">
-              <h1 className="menu-judul">Gulai Udang</h1>
-              <p className="deskripsi-judul">Makanan Khas Derah Riau </p>
+              <h1 className="menu-judul">Jelly Buah</h1>
+              <p className="deskripsi-judul">Rasa Strawberry Fruit </p>
             </div>
           </div>
         </div>
