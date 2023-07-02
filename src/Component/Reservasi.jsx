@@ -14,7 +14,13 @@ const CateringReservationForm = () => {
   const [time, setTime] = useState("");
   const [volume, setVolume] = useState("");
   const [message, setMessage] = useState("");
-  const [isClicked, setIsClicked] = useState(false);
+  const [isNameClicked, setIsNameClicked] = useState(false);
+  const [isEmailClicked, setIsEmailClicked] = useState(false);
+  const [isPhoneClicked, setIsPhoneClicked] = useState(false);
+  const [isDateClicked, setIsDateClicked] = useState(false);
+  const [isTimeClicked, setIsTimeClicked] = useState(false);
+  const [isVolumeClicked, setIsVolumeClicked] = useState(false);
+  const [isMessageClicked, setIsMessageClicked] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -38,14 +44,66 @@ const CateringReservationForm = () => {
     setName("");
     setEmail("");
     setPhone("");
+    setDate("");
+    setTime("");
+    setVolume("");
     setMessage("");
   };
 
-  const handleInputClick = () => {
-    setIsClicked(true);
+  const handleNameInputClick = () => {
+    setIsNameClicked(true);
   };
-  const handleInputBlur = () => {
-    setIsClicked(false);
+
+  const handleNameInputBlur = () => {
+    setIsNameClicked(false);
+  };
+
+  const handleEmailInputClick = () => {
+    setIsEmailClicked(true);
+  };
+
+  const handleEmailInputBlur = () => {
+    setIsEmailClicked(false);
+  };
+
+  const handlePhoneInputClick = () => {
+    setIsPhoneClicked(true);
+  };
+
+  const handlePhoneInputBlur = () => {
+    setIsPhoneClicked(false);
+  };
+
+  const handleDateInputClick = () => {
+    setIsDateClicked(true);
+  };
+
+  const handleDateInputBlur = () => {
+    setIsDateClicked(false);
+  };
+
+  const handleTimeInputClick = () => {
+    setIsTimeClicked(true);
+  };
+
+  const handleTimeInputBlur = () => {
+    setIsTimeClicked(false);
+  };
+
+  const handleVolumeInputClick = () => {
+    setIsVolumeClicked(true);
+  };
+
+  const handleVolumeInputBlur = () => {
+    setIsVolumeClicked(false);
+  };
+
+  const handleMessageInputClick = () => {
+    setIsMessageClicked(true);
+  };
+
+  const handleMessageInputBlur = () => {
+    setIsMessageClicked(false);
   };
 
   return (
@@ -64,56 +122,66 @@ const CateringReservationForm = () => {
             <div className="nama-email">
               <input
                 type="text"
-                placeholder ={isClicked ? '' : 'Nama'}
+                placeholder={isNameClicked ? "" : "Nama"}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                onClick={handleInputClick}
-                onBlur={handleInputBlur}
+                onClick={handleNameInputClick}
+                onBlur={handleNameInputBlur}
               />
 
               <input
                 type="email"
-                placeholder={isClicked ? '' : 'Email'}
+                placeholder={isEmailClicked ? "" : "Email"}
                 value={email}
-                onChange={(f) => setEmail(f.target.value)}
-                onClick={handleInputClick}
-                onBlur={handleInputBlur}
+                onChange={(e) => setEmail(e.target.value)}
+                onClick={handleEmailInputClick}
+                onBlur={handleEmailInputBlur}
               />
             </div>
 
             <div className="noTelp-TglAcara">
               <input
                 type="text"
-                placeholder="Nomor Telepon"
+                placeholder={isPhoneClicked ? "" : "Nomor Telepon"}
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
+                onClick={handlePhoneInputClick}
+                onBlur={handlePhoneInputBlur}
               />
               <input
                 type="text"
-                placeholder="Tanggal Acara"
+                placeholder={isDateClicked ? "" : "Tanggal Acara"}
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
+                onClick={handleDateInputClick}
+                onBlur={handleDateInputBlur}
               />
             </div>
 
             <div className="jumlah-jam">
               <input
                 type="text"
-                placeholder="Jumlah Pesanan"
+                placeholder={isVolumeClicked ? "" : "Jumlah Pesanan"}
                 value={volume}
                 onChange={(e) => setVolume(e.target.value)}
+                onClick={handleVolumeInputClick}
+                onBlur={handleVolumeInputBlur}
               />
               <input
                 type="text"
-                placeholder="Jam"
+                placeholder={isTimeClicked ? "" : "Jam"}
                 value={time}
                 onChange={(e) => setTime(e.target.value)}
+                onClick={handleTimeInputClick}
+                onBlur={handleTimeInputBlur}
               />
             </div>
             <textarea
-              placeholder="Pesan"
+              placeholder={isMessageClicked ? "" : "Pesan"}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              onClick={handleMessageInputClick}
+              onBlur={handleMessageInputBlur}
             ></textarea>
             <button type="submit">Kirim</button>
           </form>
