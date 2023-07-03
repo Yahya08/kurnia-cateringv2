@@ -1,20 +1,48 @@
 import "../Component CSS/Page3.css";
-// import Img from "../../assets/Img/Card/Resep Nasi Uduk Betawi yang Maknyus & Enyoi.jpg";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
 function Page3_1() {
   const [menuData, setMenuData] = useState([]);
+  const [data_utama, setDataUtama] = useState([]);
+  const [data_penutup, setDataPenutup] = useState([]);
   const fetchMenuData = () => {
     axios
-      .get("http://localhost:5000/dataMenu", {})
+      .get("http://localhost:5000/dataMenu/hidangan_pembuka", {})
       .then((response) => {
         setMenuData(response.data);
+        // setDataUtama(response.data);
+        // setDataPenutup(response.data);
+      })
+      .catch((error) => {
+        console.error("Terjadi kesalahan dalam permintaan API: ", error);
+      });
+
+      axios
+      .get("http://localhost:5000/dataMenu/hidangan_utama", {})
+      .then((response) => {
+        // setMenuData(response.data);
+        setDataUtama(response.data);
+        // setDataPenutup(response.data);
+      })
+      .catch((error) => {
+        console.error("Terjadi kesalahan dalam permintaan API: ", error);
+      });
+
+      axios
+      .get("http://localhost:5000/dataMenu/hidangan_penutup", {})
+      .then((response) => {
+        // setMenuData(response.data);
+        // setDataUtama(response.data);
+        setDataPenutup(response.data);
       })
       .catch((error) => {
         console.error("Terjadi kesalahan dalam permintaan API: ", error);
       });
   };
+
+  
+  
 
   const arrayBufferToBase64 = (buffer) => {
     let binary = "";
@@ -44,7 +72,6 @@ function Page3_1() {
         <div className="stylee-pg3">
           <div className="style-page3">
             {menuData
-              .filter((item) => item.jenis === "hidangan_pembuka")
               .map((item) => {
                 const base64Image = arrayBufferToBase64(item.gambar.data);
                 const imageURL = `data:${item.gambar.contentType};base64,${base64Image}`;
@@ -75,8 +102,7 @@ function Page3_1() {
         </p>
         <div className="stylee-pg3">
           <div className="style-page3">
-            {menuData
-              .filter((item) => item.jenis === "hidangan_utama")
+            {data_utama
               .map((item) => {
                 const base64Image = arrayBufferToBase64(item.gambar.data);
                 const imageURL = `data:${item.gambar.contentType};base64,${base64Image}`;
@@ -107,8 +133,7 @@ function Page3_1() {
         </p>
         <div className="stylee-pg3">
           <div className="style-page3">
-            {menuData
-              .filter((item) => item.jenis === "hidangan_penutup")
+            {data_penutup
               .map((item) => {
                 const base64Image = arrayBufferToBase64(item.gambar.data);
                 const imageURL = `data:${item.gambar.contentType};base64,${base64Image}`;

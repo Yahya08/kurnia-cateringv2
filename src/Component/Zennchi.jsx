@@ -6,16 +6,25 @@ import jelly from "../assets/Img/Card/jelly.jpeg";
 import bakso from "../assets/Img/Card/bakso.png";
 import barbaque from"../assets/Img/Card/barbecue.png";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
 
 function Zennchi() {
+  useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+
+  },[]
+);
+
   return (
     <div className="bodyzeen">
-      <div className="judul-pg">
+      <div  className="judul-pg">
         <h1 className="judulpd-h1">Kami juga Meyediakan</h1>
         <h1 className="judulpd-h1">Beberapa Jenis Makanan</h1>
         <div className="style">
         <div className="swipe">
-          <div className="card-makanan">
+          <div data-aos="fade-up" className="card-makanan">
             <img className="card-img" src={apetizer} alt="" />
             <div className="card-text">
               <h1 className="menu-judul">Apetizer</h1>

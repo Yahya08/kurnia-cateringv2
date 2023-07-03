@@ -64,7 +64,7 @@
   /* padding-top: 10vh;
   padding-left: 20vh; */
 }
-
+/* Info kontak */
 .info-contacts {
   width: 30%;
   padding-left: 5rem;
@@ -74,8 +74,13 @@
 
 }
 
-li{
-  
+.info-contacts li{
+  list-style: none;
+  padding: 1rem;
+}
+.info-contacts a{
+  text-decoration: none;
+  margin-left: 10px;
 }
 .info-contacts h2{
   color: #f17228;
@@ -83,6 +88,21 @@ li{
   margin-bottom: 50px;
   text-transform: uppercase;
   text-align: center;
+}
+.icn-ress{
+  font-size: 18px;
+}
+.icn-resa{
+  color: #212121;
+  font-weight: 600;
+}
+.icnresp{
+  margin-left: 1.8rem;
+}
+.info-contacts ul{
+   border: 1px solid #000;
+   height: 25vh;
+   margin-top: 3.8rem;
 }
 
 .form {

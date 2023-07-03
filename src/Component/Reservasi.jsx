@@ -154,7 +154,7 @@ const CateringReservationForm = () => {
 
             <div className="noTelp-TglAcara">
               <input
-                type="text" name="user_number"
+                type="tel" name="user_number"
                 placeholder={isPhoneClicked ? "" : "Nomor Telepon"}
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
@@ -162,7 +162,7 @@ const CateringReservationForm = () => {
                 onBlur={handlePhoneInputBlur}
               />
               <input
-                type="text" name="user_date"
+                type="date" name="user_date"
                 placeholder={isDateClicked ? "" : "Tanggal Acara"}
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
@@ -173,7 +173,7 @@ const CateringReservationForm = () => {
 
             <div className="jumlah-jam">
               <input
-                type="text" name="user_volume"
+                type="number" name="user_volume"
                 placeholder={isVolumeClicked ? "" : "Jumlah Pesanan"}
                 value={volume}
                 onChange={(e) => setVolume(e.target.value)}
@@ -206,16 +206,16 @@ const CateringReservationForm = () => {
             <ul>
               <li>
                 <FiMail className="icn-ress" />
-                <a href="mailto:kurniacatering2020@gmail.com">
+                <a className="icn-resa" href="mailto:kurniacatering2020@gmail.com">
                   Email
-                  <p>kurniacatering2020@gmail.com</p>
+                  <p className="icnresp">kurniacatering2020@gmail.com</p>
                 </a>
               </li>
               <li>
                 <IoLogoWhatsapp className="icn-ress" />
-                <a href="https://wa.me/6285712872931">
+                <a className="icn-resa" href="https://wa.me/6285712872931">
                   WhatsApp
-                  <p>085870847511</p>
+                  <p className="icnresp">085870847511</p>
                 </a>
               </li>
             </ul>
