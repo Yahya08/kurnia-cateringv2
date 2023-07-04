@@ -50,7 +50,7 @@ function Datadiri() {
             <img className="diri-img" src={Img4} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Prasmanan</h1>
-              <p className="deskripsi-diri">Memperingati hari ulang tahun Kenedi Fagus</p>
+              <p className="deskripsi-diri">Memperingati hari ulang tahun Kenedi Faguss</p>
             </div>
           </div>
           <div  data-aos="zoom-in-up" className="card-diri">
