@@ -6,7 +6,7 @@ import Jeje from "../assets/Img/Tim/Jeje.jpg"
 import Angga from "../assets/Img/Tim/Tim/Angga.jpg"
 import Yahya from "../assets/Img/Tim/Tim/Yahya.png"
 import Agus from "../assets/Img/Tim/Tim/Aguss.jpg"
-import Taufik from "../assets/Img/Tim/Taufik.JPG"
+import Taufik from "../assets/Img/Tim/Tim/topek.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";

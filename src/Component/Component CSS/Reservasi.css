@@ -36,8 +36,8 @@
   font-size: 80px;
   padding-bottom: 10px;
   color: transparent;
-  -webkit-text-stroke: 1px #fbff008a;
-  background: url("../../assets/Img/Card/backgrounfix1.jpg");
+  -webkit-text-stroke: 1px #0000008a;
+  background: url("../../assets/Img/Card/back.png");
 
   background-position: 0 0;
   animation: back 10s linear infinite;

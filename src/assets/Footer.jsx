@@ -60,7 +60,7 @@ function Footer() {
             </li>
             <li>
               <span><FiMail/></span>
-              <p><a href="mailto:kurniacatering2020@gmail.com">kurniacatering2020@gmail.com</a> </p>
+              <p><a href="mailto:anggaairulr@students.amikom.ac.id">kurniacatering2020@gmail.com</a> </p>
             </li>
           </ul>
         </div>

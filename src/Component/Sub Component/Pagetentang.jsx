@@ -55,7 +55,7 @@ function Page_tentang() {
               perusahaan fokus pada pembentukan identitas merek mereka. Ini melibatkan pemilihan nama perusahaan,<br/>
               pengembangan logo, dan penentuan nilai-nilai inti yang akan menjadi landasan operasional mereka.<br/>
               Selama tahun ini, Kurnia Catering juga berinvestasi dalam membangun  <br/>infrastruktur yang diperlukan untuk mendukung
-              operasional mereka. Mereka mengatur dapur yang modern <br/> memperoleh peralatan katering, dan mempekerjakan
+              operasional mereka. Mereka mengatur dapur <br/> yang modern  memperoleh peralatan katering, dan mempekerjakan
               staf yang terampil dan berdedikasi. <br/>Setelah berbagai persiapan, Kurnia Catering meluncurkan layanan
               mereka secara resmi.<br/>  Mereka mulai menerima pesanan katering untuk berbagai acara, seperti 
               pertemuan bisnis, <br/>konferensi, pesta ulang tahun, dan acara lainnya</p>
