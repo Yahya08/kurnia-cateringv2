@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     gap: 1rem;
-    height: 180vh;
+    height: 190vh;
     display: flex;
     width: 100%;
     background-color: #ffb20e;
@@ -62,7 +62,7 @@
     width: 90%;
     margin-left: 5%;
     background-color: #fff;
-    height: 90vh;
+    height: 95vh;
     border-radius: 13px;
     display: flex;
     position: relative;

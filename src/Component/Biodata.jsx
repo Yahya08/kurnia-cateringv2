@@ -7,6 +7,9 @@ import Angga from "../assets/Img/Tim/Tim/Angga.jpg"
 import Yahya from "../assets/Img/Tim/Tim/Yahya.png"
 import Agus from "../assets/Img/Tim/Tim/Aguss.jpg"
 import Taufik from "../assets/Img/Tim/Taufik.JPG"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
@@ -14,15 +17,22 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 
 function Font() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    
+      
+    },[]
+      );
   return (
     <div className="biodata">
      <div className="biodata-scroll">
 
     
-     <div className="biodata-pos">
+     <div data-aos="fade-right" className="biodata-pos">
 
         <div className="wrapper"> 
-            <div className="card-back">
+            <div data-aos="zoom-in-up" className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Jeje} alt="" />
                     <div className="info">
@@ -40,7 +50,7 @@ function Font() {
             </div>
             
         </div>
-        <div className="wrapper"> 
+        <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Aviva} alt="" />
@@ -59,12 +69,12 @@ function Font() {
             </div>
             
         </div>
-        <div className="wrapper"> 
+        <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Angga} alt="" />
                     <div className="info">
-                        <div className="title">Angga Airul Rohman</div>
+                        <div className="title">Angga Airul R</div>
                         <p>21.11.4384</p>
                     </div> 
                     <ul>
@@ -78,7 +88,7 @@ function Font() {
             </div>
             
         </div>
-        <div className="wrapper"> 
+        <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Agus} alt="" />
@@ -97,12 +107,12 @@ function Font() {
             </div>
             
         </div>
-            <div className="wrapper"> 
+            <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Amalina} alt="" />
                     <div className="info">
-                        <div className="title">Amalina Nur Sabrina</div>
+                        <div className="title">Amalina Nur S</div>
                         <p>21.11.4334</p>
                     </div> 
                     <ul>
@@ -116,7 +126,7 @@ function Font() {
             </div>
             
         </div>
-        <div className="wrapper"> 
+        <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Taufik} alt="" />
@@ -135,12 +145,12 @@ function Font() {
             </div>
             
         </div>
-        <div className="wrapper"> 
+        <div data-aos="zoom-in-up" className="wrapper"> 
             <div className="card-back">
                 <div className="back-face">
                     <img className="icon.png" src={Yahya} alt="" />
                     <div className="info">
-                        <div className="title">Yahya Handa Restanto</div>
+                        <div className="title">Yahya Handa R</div>
                         <p>21.11.4365</p>
                     </div> 
                     <ul>

@@ -1,5 +1,5 @@
 .lay-menu {
-  margin-top: 10vh;
+  margin-top: 11vh;
 }
 
 .menu-page3 {
@@ -92,10 +92,13 @@
 
 .judul-pg3 {
   margin-top: 50px;
-  height: 87vh;
+  height: 89vh;
   text-align: center;
 }
 
 .judul-pg3 h1 {
   text-align: center;
+}
+.menu-page3p{
+  color: #ffffff;
 }

@@ -1,6 +1,8 @@
 import "../Component CSS/Page3.css";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Page3_penutup() {
   const [data_penutup, setDataPenutup] = useState([]);
@@ -33,6 +35,8 @@ function Page3_penutup() {
 
   useEffect(() => {
     fetchDataPenutup();
+    AOS.init();
+    AOS.refresh();
   }, []);
 
   return (
@@ -56,7 +60,7 @@ function Page3_penutup() {
                 return (
                   <div className="induk">
                     <div key={item.id_menu} className="card-page3">
-                      <img className="img-page3" src={imageURL} alt="" />
+                      <img data-aos="flip-left" className="img-page3" src={imageURL} alt="" />
                       <div className="card-text3">
                         <p className="deskripsi-judul-pg3">{item.deskripsi}</p>
                       </div>

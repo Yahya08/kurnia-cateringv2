@@ -2,7 +2,7 @@ import "./Component CSS/Page3.css"
 import Page3_1 from "./Sub Component/Page3_1"
 import Navbar from "../assets/Navbar"
 import Footer from "../assets/Footer"
-import Home2 from "./Home2"
+import Page1 from "./Page1"
 
 
 function Page3() {
@@ -11,7 +11,7 @@ function Page3() {
       <div className="slide-menu">
         <Navbar/>
         <div className="lay-menu">
-        <Home2/>
+        <Page1/>
         <Page3_1/>
         </div>
 

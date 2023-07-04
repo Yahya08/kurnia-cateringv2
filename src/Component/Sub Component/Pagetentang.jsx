@@ -1,15 +1,25 @@
 import "../Component CSS/Tentang.css";
 import Visi from "../../assets/Img/Tim/Perusahaan/Ke6.jpg"
+import { useEffect } from "react";
 import Sejarah from "../../assets/Img/Tim/Perusahaan/Ke1.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Page_tentang() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+
+  
+},[]
+  );
   return (
     <div className="tentang-page">
       <div className="con-tentang">
-        <div className="sub-tentang">
+        <div  data-aos="fade-right" className="sub-tentang">
           <div className="card-tentang3">
-            <img className="tentang-img" src={Visi} alt="" />
+            <img  fade-right className="tentang-img" src={Visi} alt="" />
             <div className="tentang2-txt">
               <h2>
                 Visi
@@ -33,7 +43,7 @@ function Page_tentang() {
             </div>
           </div>
         </div>
-        <div className="sub-tentang">
+        <div data-aos="fade-left" className="sub-tentang">
           <div className="card-tentang4">
             <div className="tentang4-txt">
               <h2>
@@ -51,7 +61,7 @@ function Page_tentang() {
               pertemuan bisnis, <br/>konferensi, pesta ulang tahun, dan acara lainnya</p>
 
             </div>
-            <img className="tentang-img2" src={Sejarah} alt="" />
+            <img  className="tentang-img2" src={Sejarah} alt="" />
           </div>
         </div>
       </div>

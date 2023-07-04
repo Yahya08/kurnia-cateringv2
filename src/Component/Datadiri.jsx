@@ -6,22 +6,32 @@ import Img3 from "../assets/Img/Tim/Perusahaan/Ke1.jpg"
 import Img4 from "../assets/Img/Tim/Perusahaan/Ke4.jpeg"
 import Img5 from "../assets/Img/Tim/Perusahaan/Ke5.jpeg"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 function Datadiri() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+
+  
+},[]
+  );
   return (
     <div className="datadiri">
         <div className="web">
           <div className="swipe-diri">
-          <div className="card-diri">
-            <img className="diri-img" src={Img} alt="" />
+          <div  data-aos="zoom-in-up" className="card-diri">
+            <img  className="diri-img" src={Img} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Prasmanan</h1>
               <p className="deskripsi-diri">Prasmanan di PT. Persero Tbk <br/>
                Pembangunan proyek Das serang</p>
             </div>
           </div>
-          <div className="card-diri">
+          <div  data-aos="zoom-in-up" className="card-diri">
             <img className="diri-img" src={Img2} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Prasmanan</h1>
@@ -29,21 +39,21 @@ function Datadiri() {
               Pembangunan gedung kampus</p>
             </div>
           </div>
-          <div className="card-diri">
+          <div  data-aos="zoom-in-up" className="card-diri">
             <img className="diri-img" src={Img3} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Prasmanan</h1>
               <p className="deskripsi-diri">Bekerjasama dengan Rissa WO Boyolali</p>
             </div>
           </div>
-          <div className="card-diri">
+          <div  data-aos="zoom-in-up" className="card-diri">
             <img className="diri-img" src={Img4} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Prasmanan</h1>
               <p className="deskripsi-diri">Memperingati hari ulang tahun Kenedi Fagus</p>
             </div>
           </div>
-          <div className="card-diri">
+          <div  data-aos="zoom-in-up" className="card-diri">
             <img className="diri-img" src={Img5} alt="" />
             <div className="diri-text">
               <h1 className="diri-judul">Box</h1>

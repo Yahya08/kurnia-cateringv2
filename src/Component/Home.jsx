@@ -9,6 +9,7 @@ import Page1 from "../Component/Page1.jsx"
 // import Reserfasi from "./Reserfasi"
 import Tim from "./Tim"
 // import Tentang from "./Tentang"
+import Home2 from "../Component/Home2"
 import Zennchi from "./Zennchi"
 // import Font from "./Font"
 
@@ -17,8 +18,8 @@ function Home() {
     <div className="body">
         <Navbar/>
         <div className="isi">
-          
-          <Page1/>
+          <Home2/>
+          {/* <Page1/> */}
           {/* <Page2/> */}
           {/* <Page3/> */}
           {/* <Page4/> */}

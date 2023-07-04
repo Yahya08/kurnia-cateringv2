@@ -7,12 +7,18 @@ import bakso from "../assets/Img/Card/bakso.png";
 import barbaque from"../assets/Img/Card/barbecue.png";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import AOS from "aos";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Zennchi() {
   useEffect(() => {
-      AOS.init();
+      AOS.init({
+
+        duration: 800
+      }
+        );
       AOS.refresh();
+    
 
   },[]
 );
@@ -20,25 +26,25 @@ function Zennchi() {
   return (
     <div className="bodyzeen">
       <div  className="judul-pg">
-        <h1 className="judulpd-h1">Kami juga Meyediakan</h1>
-        <h1 className="judulpd-h1">Beberapa Jenis Makanan</h1>
-        <div className="style">
+        <h1 data-aos="fade-right" className="judulpd-h1">Kami juga Meyediakan</h1>
+        <h1 data-aos="fade-right" className="judulpd-h1">Beberapa Jenis Makanan</h1>
+        <div data-aos="zoom-in" className="style">
         <div className="swipe">
-          <div data-aos="fade-up" className="card-makanan">
+          <div  data-aos="fade-right" className="card-makanan">
             <img className="card-img" src={apetizer} alt="" />
             <div className="card-text">
               <h1 className="menu-judul">Apetizer</h1>
               <p className="deskripsi-judul">Italian food</p>
             </div>
           </div>
-          <div className="card-makanan">
+          <div data-aos="fade-up" className="card-makanan">
             <img className="card-img" src={mangut} alt="" />
             <div className="card-text">
               <h1 className="menu-judul">Mangut</h1>
               <p className="deskripsi-judul">Makanan Khas Daerah Pati </p>
             </div>
           </div>
-          <div className="card-makanan">
+          <div  data-aos="fade-left" className="card-makanan">
             <img className="card-img" src={jelly} alt="" />
             <div className="card-text">
               <h1 className="menu-judul">Jelly Buah</h1>
@@ -46,13 +52,13 @@ function Zennchi() {
             </div>
           </div>
         </div>
-        <div className="swipe-pos">
+        <div data-aos="fade-right" className="swipe-pos">
           <Link className="btn-swp" to={"/menu"}> <br />Swipe Next </Link>
         </div>
         </div>
         <div className="page5slide">
           <div className="sideside">
-            <div className="card-anim">
+            <div data-aos="zoom-in" className="card-anim">
               <div className="cardanimimg">
                 <div className="card-animdes">
                 <h1>Cobain Beberapa Hidangan </h1>
@@ -61,17 +67,17 @@ function Zennchi() {
                 <h1 className="card-p">P<span className="spanp">uas !!</span></h1>
                 </div>
               </div>
-              <div className="deskripsipromo">
+              <div data-aos="zoom-in-left" className="deskripsipromo">
                 <h1 className="judul-anim">AYAM GEPREK</h1>
                 <p className="text-anim">Dengan Daging Ayam Yang Pasti Halal </p>
                 <p className="text-anim1">Hubungi kami </p>
               </div>
-              <img className="promo-img" src={Promo} alt="" />
+              <img  className="promo-img" src={Promo} alt="" />
             </div>
             {/* Page Promo */}
 
             <div className="page5kanan">
-              <div className="kananfoto1">
+              <div data-aos="zoom-in-left" className="kananfoto1">
                 <img className="bakso" src={bakso} alt="" />
                 <div className="kanandeskripsi">
                   <h1 className="h1-detail">Bakso Ceker</h1>
@@ -90,7 +96,7 @@ function Zennchi() {
                   </div>
                 </div>
               </div>
-              <div className="kananfoto1">
+              <div data-aos="zoom-in-left" className="kananfoto1">
                 <img className="bakso" src={barbaque} alt="" />
                 <div className="kanandeskripsi">
                   <h1 className="h1-detail">Barbacue</h1>
@@ -109,7 +115,7 @@ function Zennchi() {
                   </div>
                 </div>
               </div>
-              <div className="kananfoto1">
+              <div data-aos="zoom-in-left" className="kananfoto1">
                 <img className="promokanan" src={Promo} alt="" />
                 <div className="kanandeskripsi">
                   <h1 className="h1-detail">Ayam Geprek</h1>

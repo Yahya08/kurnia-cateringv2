@@ -2,10 +2,13 @@ import "./Component CSS/Home2.css";
 import { Link } from "react-router-dom";
 import Back from "../assets/Img/Card/backgrounfix3.jpg";
 import Gmbr from ".././assets/Img/Card/cheft.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Home2() {
   return (
     <div className="home2">
-      <img className="home2back" src={Back} alt="" />
+      <img  className="home2back" src={Back} alt="" />
       <div className="subhome2">
 
         <div className="home2-txt">
@@ -22,7 +25,7 @@ function Home2() {
         </div>
         <div className="imgg">
           
-          <img className="img-home2" src={Gmbr} alt="" />
+          <img  data-aos="zoom-in-up" className="img-home2" src={Gmbr} alt="" />
         </div>
       </div>
     </div>
