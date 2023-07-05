@@ -44,8 +44,6 @@ function Page3_1() {
   };
 
   
-  
-
   const arrayBufferToBase64 = (buffer) => {
     let binary = "";
     const bytes = new Uint8Array(buffer);

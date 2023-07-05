@@ -17,8 +17,6 @@ const db = mysql.createConnection({
 
 // Endpoints untuk API
 app.get("/dataMenu/hidangan_pembuka", (req, res) => {
-  // res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-  // const jenis = req.params.jenis;
   db.query("SELECT * FROM data_menu WHERE jenis = 'hidangan_pembuka'",
   (error, result) => {
     if (error) {
@@ -31,8 +29,6 @@ app.get("/dataMenu/hidangan_pembuka", (req, res) => {
 });
 
 app.get("/dataMenu/hidangan_utama", (req, res) => {
-  // res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-  // const jenis = req.params.jenis;
   db.query("SELECT * FROM data_menu WHERE jenis = 'hidangan_utama'",
   (error, result) => {
     if (error) {
@@ -46,8 +42,6 @@ app.get("/dataMenu/hidangan_utama", (req, res) => {
 
 
 app.get("/dataMenu/hidangan_penutup", (req, res) => {
-  // res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-  // const jenis = req.params.jenis;
   db.query("SELECT * FROM data_menu WHERE jenis = 'hidangan_penutup'",
   (error, result) => {
     if (error) {
