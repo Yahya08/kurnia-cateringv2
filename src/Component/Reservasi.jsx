@@ -7,6 +7,7 @@ import { FiMail } from "react-icons/fi";
 import Navbar from "../assets/Navbar";
 import Footer from "../assets/Footer";
 import cheft from ".././assets/Img/Card/cheft.png";
+import 'aos/dist/aos.css';
 
 const CateringReservationForm = () => {
   const [name, setName] = useState("");
@@ -55,11 +56,9 @@ const CateringReservationForm = () => {
   const handleNameInputClick = () => {
     setIsNameClicked(true);
   };
-
   const handleNameInputBlur = () => {
     setIsNameClicked(false);
   };
-
   const handleEmailInputClick = () => {
     setIsEmailClicked(true);
   };
@@ -125,7 +124,7 @@ const CateringReservationForm = () => {
       </div>
 
       <div className="img">
-          <img className="cheff" src={cheft} alt="" />
+          <img data-aos="zoom-in-up" className="cheff" src={cheft} alt="" />
         </div>
 
       <div className="body-reservasi">
