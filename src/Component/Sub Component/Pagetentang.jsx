@@ -50,15 +50,16 @@ function Page_tentang() {
                 Sejarah Perusahaan
               </h2>
               <p>Pada tahun 2019, Kurnia Catering didirikan oleh sekelompok individu yang memiliki <br/>
-              keahlian dan pengalaman di bidang kuliner dan layanan katering. Mereka memiliki visi untuk membawa <br/>
-              pengalaman kuliner yang istimewa kepada pelanggan mereka. Selama tahun pertama, <br/>
-              perusahaan fokus pada pembentukan identitas merek mereka. Ini melibatkan pemilihan nama perusahaan,<br/>
-              pengembangan logo, dan penentuan nilai-nilai inti yang akan menjadi landasan operasional mereka.<br/>
-              Selama tahun ini, Kurnia Catering juga berinvestasi dalam membangun  <br/>infrastruktur yang diperlukan untuk mendukung
-              operasional mereka. Mereka mengatur dapur <br/> yang modern  memperoleh peralatan katering, dan mempekerjakan
-              staf yang terampil dan berdedikasi. <br/>Setelah berbagai persiapan, Kurnia Catering meluncurkan layanan
-              mereka secara resmi.<br/>  Mereka mulai menerima pesanan katering untuk berbagai acara, seperti 
-              pertemuan bisnis, <br/>konferensi, pesta ulang tahun, dan acara lainnya</p>
+              keahlian dan pengalaman di bidang kuliner dan layanan katering. Mereka memiliki <br/>
+              visi untuk membawa pengalaman kuliner yang istimewa kepada pelanggan mereka.<br/>
+              Selama tahun pertama,perusahaan fokus pada pembentukan identitas merek mereka.<br/> 
+              Ini melibatkan pemilihan nama perusahaan, pengembangan logo, dan penentuan nilai<br/> inti
+              yang akan menjadi landasan operasional mereka. Selama tahun ini, Kurnia Catering <br/>
+              juga berinvestasi dalam membangun  infrastruktur yang diperlukan untuk mendukung<br/>
+              operasional mereka. Mereka mengatur dapur yang modern  memperoleh peralatan, 
+              <br/>dan mempekerjakan staf yang terampil dan berdedikasi.Setelah berbagai persiapan, <br/>
+              Kurnia Catering meluncurkan layanan mereka secara resmi. Mereka mulai memesan <br/>
+              katering untuk berbagai acara, seperti pertemuan bisnis, konferensi, <br/>pesta ulang tahun, dan acara lainnya</p>
 
             </div>
             <img  className="tentang-img2" src={Sejarah} alt="" />
